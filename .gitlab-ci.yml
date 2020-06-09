@@ -4,9 +4,9 @@ stages:
   - github
   
 sync:
-before_script:
-    - git --version
-stage: github
-script:
-    - git pull origin master
-    - git push https://$github_username:$github_push_token@github.com/snpranav/go-api-boilerplate.git HEAD:master
+    before_script:
+        - git --version
+    stage: github
+    script:
+        - git pull origin master
+        - git push https://$github_username:$github_push_token@github.com/snpranav/alpine-git-sh.git HEAD:master
