@@ -1,4 +1,4 @@
-image: snpranav/git:3.12.0
+image: snpranav/alpine-git-sh:3.12.0
   
 stages:
   - github

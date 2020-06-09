@@ -7,3 +7,5 @@ Build light docker images that require alpine shell and git, by including the li
 ```
 $ docker run -it snpranav/alpine-git-sh
 ```
+---
+This project is maintaied on [GitHub](https://github.com/snpranav/alpine-git-sh) and [GitLab](https://gitlab.com/snpranav/alpine-git-sh).
